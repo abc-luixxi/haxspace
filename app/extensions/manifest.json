@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "HaxBall Space",
+  "version": "1.2.3",
+  "description": "Extensao oficial do HaxBall Space",
+  "content_scripts": [
+    {
+      "matches": ["*://www.haxball.com/*", "*://haxball.com/*", "*://html5.haxball.com/*"],
+      "js": [
+        "config.js",
+        "core.js",
+        "welcome.js",
+        "styles.js",
+        "themes.js",
+        "header.js",
+        "settings.js",
+        "stretched.js",
+        "discord.js",
+        "verified.js",
+        "roomlist.js",
+        "star-menu-bridge.js",
+        "chatlinks.js",
+        "hideui.js",
+        "quickavatar.js",
+        "hosttoken.js",
+        "leaveroom.js",
+        "translate.js",
+        "ads.js",
+        "security.js",
+        "background.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "*://www.haxball.com/*",
+    "*://haxball.com/*",
+    "*://html5.haxball.com/*",
+    "*://localhost/*"
+  ]
+}

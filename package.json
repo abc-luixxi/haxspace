@@ -1,0 +1,40 @@
+{
+  "name": "haxball-space-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial HaxBall Space Electron client.",
+  "author": "HaxBall Space",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "13.0.0",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "com.haxballspace.client",
+    "productName": "HaxBall Space",
+    "artifactName": "HaxBall-Space-${version}-Setup.${ext}",
+    "asar": false,
+    "directories": {
+      "app": "app",
+      "output": "release"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "signAndEditExecutable": false,
+      "target": [
+        "nsis"
+      ],
+      "icon": "app/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

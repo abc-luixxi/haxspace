@@ -1,0 +1,9 @@
+{
+  "name": "spaceclient",
+  "version": "1.0.0",
+  "client_build": 1,
+  "description": "HaxBall Space - Space Client",
+  "main": "main.js",
+  "author": "HaxBall Space",
+  "license": "MIT"
+}
