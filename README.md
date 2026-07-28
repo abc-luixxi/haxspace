@@ -1,4 +1,4 @@
-# Don't Use This Shit: Vibecoded HaxBall Space Client
+# Don't Use This Shit: Vibecoded HaxBall Client
 
 An unofficial Electron client for [HaxBall](https://www.haxball.com/). This is
 an archival/recovery project, not a cleanly designed application.
@@ -15,9 +15,7 @@ an archival/recovery project, not a cleanly designed application.
 - Launcher UI, in-game Space UI, assets, and injected extensions.
 - A local loopback bridge listening only on 127.0.0.1:5483.
 - A local guest profile so the client can run without the original service.
-- Empty backend/ and scripts/ directories, kept in the repository for future
-  work.
-
+- 
 HaxBall itself is loaded from https://www.haxball.com/play; an Internet
 connection is still required to join or create rooms. Complete any HaxBall
 CAPTCHA manually.
@@ -51,7 +49,7 @@ npm run dist
 
 Build output is written to release/ and ignored by Git.
 
-## Original Baires API (removed)
+## Original API (removed)
 
 The following is the actual route surface observed in the original client. Its
 configured base URL was https://api-spacehax.baires.host. This is **reference
