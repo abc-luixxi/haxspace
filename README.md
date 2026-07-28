@@ -15,7 +15,7 @@ an archival/recovery project, not a cleanly designed application.
 - Launcher UI, in-game Space UI, assets, and injected extensions.
 - A local loopback bridge listening only on 127.0.0.1:5483.
 - A local guest profile so the client can run without the original service.
-- 
+
 HaxBall itself is loaded from https://www.haxball.com/play; an Internet
 connection is still required to join or create rooms. Complete any HaxBall
 CAPTCHA manually.
