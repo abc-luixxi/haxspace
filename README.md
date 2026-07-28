@@ -118,8 +118,6 @@ The internal bridge binds to 127.0.0.1:5483; it is not a public web API.
   assets.
 - app/extensions/ — Browser scripts injected into HaxBall.
 - app/ui/ — Launcher and in-game Space UI.
-- backend/ — Intentionally empty; the original backend was not recovered.
-- scripts/ — Intentionally empty; reserved for project tooling.
 
 ## License
 
